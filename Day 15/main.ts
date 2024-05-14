@@ -1,4 +1,4 @@
-/* Day 14 
+/* Day 15
 Question 43: Unchanged Magicians: Preserve the original magician names while creating
 a new "great" list.*/
 
