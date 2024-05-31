@@ -11,7 +11,7 @@ function combineStringAndNumber(text, number) {
 console.log(combineStringAndNumber("age:", 30));
 /* Question 65:
 Determine the Remainder: Make a function that gets two numbers and shows the leftover from dividing them using the % sign. For example, remainder(5, 2) should give 1.
-
+  
 Explain & TIP: The % (modulus) operator finds what's left after one number is divided by another. It's handy for figuring out if numbers are even, odd, and more.*/
 // Create a function that gets two numbers and shows the leftover from dividing them
 //using the remainder operator
@@ -21,9 +21,9 @@ function myNum(num1, num2) {
 let result = myNum(5, 2);
 console.log(result);
 /* Question 66:
-Logical AND Verification: Create a function that checks two boolean (true or false) values. It should only say true if both are true, using the && operator. For instance, checkBothTrue(true, false) should be false.
-
-Explain & TIP: The && operator in JavaScript checks if both sides are true. It's great for confirming several things are true all at once.*/
+  Logical AND Verification: Create a function that checks two boolean (true or false) values. It should only say true if both are true, using the && operator. For instance, checkBothTrue(true, false) should be false.
+  
+  Explain & TIP: The && operator in JavaScript checks if both sides are true. It's great for confirming several things are true all at once.*/
 // Create a function that checks two boolean (true or false) values.
 function verificationValue(val1, val2) {
     if (10 > 5 && 2 < 5) {
