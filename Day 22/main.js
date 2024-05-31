@@ -24,6 +24,7 @@ console.log(result);
 Logical AND Verification: Create a function that checks two boolean (true or false) values. It should only say true if both are true, using the && operator. For instance, checkBothTrue(true, false) should be false.
 
 Explain & TIP: The && operator in JavaScript checks if both sides are true. It's great for confirming several things are true all at once.*/
+// Create a function that checks two boolean (true or false) values.
 function verificationValue(val1, val2) {
     if (10 > 5 && 2 < 5) {
         return true;
@@ -32,5 +33,6 @@ function verificationValue(val1, val2) {
         return false;
     }
 }
+//  Only says true if both val1 and val2 are true
 console.log(verificationValue(true, false));
 export {};
